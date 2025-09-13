@@ -1,0 +1,44 @@
+{
+  "nodes": {
+    "interlace": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1745046457,
+        "narHash": "sha256-jLjvj4IYI/hJSGZrVRVXGcQhfEetu4ogVcWbGR0Y+E4=",
+        "owner": "codingo",
+        "repo": "Interlace",
+        "rev": "b9eb99fb214bb326b7dae06ce37282222eb8e0e0",
+        "type": "github"
+      },
+      "original": {
+        "owner": "codingo",
+        "repo": "Interlace",
+        "type": "github"
+      }
+    },
+    "nixpkgs": {
+      "locked": {
+        "lastModified": 1757487488,
+        "narHash": "sha256-zwE/e7CuPJUWKdvvTCB7iunV4E/+G0lKfv4kk/5Izdg=",
+        "owner": "NixOS",
+        "repo": "nixpkgs",
+        "rev": "ab0f3607a6c7486ea22229b92ed2d355f1482ee0",
+        "type": "github"
+      },
+      "original": {
+        "owner": "NixOS",
+        "ref": "nixos-unstable",
+        "repo": "nixpkgs",
+        "type": "github"
+      }
+    },
+    "root": {
+      "inputs": {
+        "interlace": "interlace",
+        "nixpkgs": "nixpkgs"
+      }
+    }
+  },
+  "root": "root",
+  "version": 7
+}
